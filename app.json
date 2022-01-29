@@ -2,7 +2,7 @@
   "name": "Voice-chat-music-plus-Bot",
   "description": "Telegram Voice Chat Music Player Bot Based On Callsmusic with Extrac Features!",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/youtubeslgeekshow/Voice-chat-music-plus-Bot",
+  "repository": "https://github.com/aryforker/call-music-plus-bot",
   "logo": "https://telegra.ph/file/2c211ed1ab3454d0f4083.jpg",
   "stack": "container",
   "env": {
