@@ -147,7 +147,7 @@ Made  ❤️ by **@{UPDATES_CHANNEL}**""",
                 ],
                 [
                     InlineKeyboardButton(
-                         "💬 Any idea and report ", url="https://t.me/aryana_gha"
+                        "💬 Any idea and report ", url="https://t.me/aryana_gha"
                     )
                 ]
             ]
