@@ -28,7 +28,7 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""<b>Hello {message.from_user.mention} 🤖 !</b>
         
-<b>I'm  Yakari 2.O version  Music Bot! A Powerful Bot to Play Music in Your Group Voice Chat 😇! </b>
+<b>I'm  Aryana music player 2.O version  Music Bot! A Powerful Bot to Play Music in Your Group Voice Chat 😇! </b>
 
 <b>Also I have more features! Please hit on **/help** to see them 👨‍💻 !</b>
 
@@ -45,7 +45,7 @@ async def start(_, message: Message):
                         "🛠  Help Menu 🛠", callback_data="cbhelpmenu"
                     ),
                     InlineKeyboardButton(
-                        "⚒ Create your one 📦", url="https://www.youtube.com/watch?v=G58pr-Ro5aY&t=37s&pp=sAQA"
+                        "⚒ Create your one 📦", url="https://t.me/aryana_gha"
                     )
                 ],
                 [
@@ -53,7 +53,7 @@ async def start(_, message: Message):
                         "🔔  My Update Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                     InlineKeyboardButton(
-                        "💬 Support Group ", url="https://t.me/slbotzone"
+                        "💬 Any idea and report ", url="https://t.me/aryana_gha"
                     )
                 ]
             ]
@@ -72,7 +72,7 @@ async def help(_, message: Message):
             await db.add_user(chat_id)
             await Client.send_message(
         chat_id=LOG_CHANNEL,
-        text=f"**📢 News ** \n#New_Music_Lover **Started To Using Meh!** \n\nFirst Name: `{message.from_user.first_name}` \nUser ID: `{message.from_user.id}` \nProfile Link: [{message.from_user.first_name}](tg://user?id={message.from_user.id})",
+        text=f"**📢 News ** \n#New_khayemal **Started To Using khayemal yab !** \n\nFirst Name: `{message.from_user.first_name}` \nUser ID: `{message.from_user.id}` \nProfile Link: [{message.from_user.first_name}](tg://user?id={message.from_user.id})",
         parse_mode="markdown"
     )
     await message.reply_text(
@@ -124,24 +124,18 @@ async def credits2(_, message: Message):
             await db.add_user(chat_id)
             await Client.send_message(
         chat_id=LOG_CHANNEL,
-        text=f"**📢 News ** \n#New_Music_Lover **Started To Using Meh!** \n\nFirst Name: `{message.from_user.first_name}` \nUser ID: `{message.from_user.id}` \nProfile Link: [{message.from_user.first_name}](tg://user?id={message.from_user.id})",
+        text=f"**📢 News ** \n#New_khayemal **Started To Using khayemal yab !** \n\nFirst Name: `{message.from_user.first_name}` \nUser ID: `{message.from_user.id}` \nProfile Link: [{message.from_user.first_name}](tg://user?id={message.from_user.id})",
         parse_mode="markdown"
     )
-    await message.reply_sticker("CAACAgEAAxkBAAJ8LGD_g_8YHC71w0gzRJxhhKL23XZaAAIjCQAC43gEAAGfWaD2uhnQOSAE")        
+    await message.reply_sticker("CAACAgIAAx0CSMXRbAABAoCmYfZIaUq0giqLGT-p02d4HNFZqSoAAnAUAAKyeDlKurkxrZ03LCkeBA")        
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name} 🤖!</b>
 
-Special Thanks 💝 For all of first code owners 😍</b> !
 
 ✅ Credits To,
 
-<b>1️⃣ <a href="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA">sl geek show youtube </a></b> -  (❤️) !
-<b>2️⃣ Left-TG |『 刀乇ﾒﾑ 乃のｲ丂 』</b> - (First code owner ❤️)
-<b>3️⃣ N.M.Dinura Uthsara Nikalansuriya</b> - ( Heroku supporter👨‍💻)
-<b>4️⃣ AbirHasan2005</b>
-<b>5️⃣ DevsExpo</b>
-<b>6️⃣ TeamDaisyX</b>
-<b>7️⃣ Vivek-Tp</b>- ( Fsub & more help ❤️❤️)
+<b>1️⃣ <a Aryana </a></b> -  (❤️) !
+
 
 Made  ❤️ by **@{UPDATES_CHANNEL}**""",
         reply_markup=InlineKeyboardMarkup(
@@ -153,7 +147,7 @@ Made  ❤️ by **@{UPDATES_CHANNEL}**""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Support Group", url="https://t.me/slbotzone"
+                         "💬 Any idea and report ", url="https://t.me/aryana_gha"
                     )
                 ]
             ]
@@ -171,7 +165,7 @@ async def vc(_, message: Message):
             await db.add_user(chat_id)
             await Client.send_message(
         chat_id=LOG_CHANNEL,
-        text=f"**📢 News ** \n#New_Music_Lover **Started To Using Meh!** \n\nFirst Name: `{message.from_user.first_name}` \nUser ID: `{message.from_user.id}` \nProfile Link: [{message.from_user.first_name}](tg://user?id={message.from_user.id})",
+        text=f"**📢 News ** \n#New_khayemal **Started To Using khayemal yab !** \n\nFirst Name: `{message.from_user.first_name}` \nUser ID: `{message.from_user.id}` \nProfile Link: [{message.from_user.first_name}](tg://user?id={message.from_user.id})",
         parse_mode="markdown"
     )
     VC_LINK = f"https://t.me/{message.chat.username}?voicechat"
@@ -198,7 +192,7 @@ Enjoy ❤️!""",
                         "🔔  My Update Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                     InlineKeyboardButton(
-                        "💬 Support Group", url="https://t.me/slbotzone"
+                        "💬 Any idea and report ", url="https://t.me/aryana_gha"
                     )
                 ]
             ]
@@ -216,7 +210,7 @@ async def search(_, message: Message):
             await db.add_user(chat_id)
             await Client.send_message(
         chat_id=LOG_CHANNEL,
-        text=f"**📢 News ** \n#New_Music_Lover **Started To Using Meh!** \n\nFirst Name: `{message.from_user.first_name}` \nUser ID: `{message.from_user.id}` \nProfile Link: [{message.from_user.first_name}](tg://user?id={message.from_user.id})",
+        text=f"**📢 News ** \n#New_khayemal **Started To Using khayemal yab !** \n\nFirst Name: `{message.from_user.first_name}` \nUser ID: `{message.from_user.id}` \nProfile Link: [{message.from_user.first_name}](tg://user?id={message.from_user.id})",
         parse_mode="markdown"
     )
     await message.reply_text(
