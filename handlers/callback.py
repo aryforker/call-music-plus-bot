@@ -147,7 +147,7 @@ async def cbhowtouse(_, query: CallbackQuery):
 **Using Player Commands:**
     1️⃣ **📛 Group Admin Commands 🔰 ,**
      🏷  /play - Reply to supported url, Reply to Audio File or Send /play  with [⭕️ Supported Url List ⭕️](https://ytdl-org.github.io/youtube-dl/supportedsites.html)
-       **Example:** /play https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA
+       **Example:** /play https://www.youtube.com/watch?v=vh5mK4F8dBk
         
      🏷 /nplay  - Play Song by Name. (Currenty Supported for Youtube Only)
        **Example:** /nplay lelena 
