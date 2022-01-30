@@ -73,7 +73,7 @@ Made ❤️ **@{UPDATES_CHANNEL}**""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "⚒ Create your one 📦", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
+                        "⚒ Create your one 📦", url="t.me/aryana_gha"
                     )
                 ],
                 [
@@ -81,7 +81,7 @@ Made ❤️ **@{UPDATES_CHANNEL}**""",
                         "🔔  My Update Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                     InlineKeyboardButton(
-                        "⚡️ Developer", url="https://t.me/supunma"
+                        "⚡️ Developer", url="https://t.me/aryana_gha"
                     )
                 ]
             ]
