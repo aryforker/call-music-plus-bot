@@ -127,7 +127,7 @@ async def credits2(_, message: Message):
         text=f"**📢 News ** \n#New_khayemal **Started To Using khayemal yab !** \n\nFirst Name: `{message.from_user.first_name}` \nUser ID: `{message.from_user.id}` \nProfile Link: [{message.from_user.first_name}](tg://user?id={message.from_user.id})",
         parse_mode="markdown"
     )
-    await message.reply_sticker("CAACAgIAAx0CSMXRbAABAoCmYfZIaUq0giqLGT-p02d4HNFZqSoAAnAUAAKyeDlKurkxrZ03LCkeBA")        
+    await message.reply_sticker("CAACAgQAAx0CSMXRbAABAoC5YfZJN4csqeV6o_A0tF2Li5lFBx8AAlIPAAJl71hTu_Zt5jF0tb4eBA")        
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name} 🤖!</b>
 
